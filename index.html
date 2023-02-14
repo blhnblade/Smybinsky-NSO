@@ -14,51 +14,51 @@
   <link rel="stylesheet" href="./css/table.css">
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-        <div class="header__wrapper">
-            <div class="header__logo">
-                <h2>ИС001</h2>
-                <h4>Торбоков Артём</h4>
-            </div>
-            <nav class="header__nav">
-                <ul class="header__ul">
-                    <li><a href="#about">Главная</a></li>
-                    <li><a href="#contacts">Контакты</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-  </header>
-
-  <main class="main">
-    <section class="f-section">
-        <div class="container f-section__container">
-            <div class="f-section__wrapper">
-                <div class="f-section__heading">
-                    <h1>Улыбинский НСО</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="s-section" id="about">
-        <video class="s-section__video" loop autoplay muted>
-            <source src="./video/coverr-taking-pictures-on-a-boat-7292-1080p (online-video-cutter.com).mp4"> 
-            <source src="./video/coverr-taking-pictures-on-a-boat-7292-1080p-_1_.webm">
-        </video>
+    <header class="header hidden-visiblity header-translateY">
         <div class="container">
-            <div class="s-section__wrapper">
-                <div class="s-section__about">
-                    <h2 class="s-section__heading">Улыбинский НСО</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis dolor eaque et possimus officia consequuntur voluptatem, minus maxime quod sunt eligendi ipsum fugiat doloremque adipisci animi amet accusamus quo provident voluptate necessitatibus, sit iusto. Nulla aliquid adipisci rerum, obcaecati quos quam quasi? Nulla eaque incidunt quisquam, facilis porro fugiat!</p>
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <h2>ИС001</h2>
+                    <h4>Торбоков Артём</h4>
                 </div>
-                <div class="s-section__map">
-                    <iframe class="s-section__iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3A808c2ce73e6d4d03d0581018e88cbad540c81c71787576011d112a216401bf3a&amp;source=constructor" width="481" height="366" frameborder="0"></iframe>
-                </div>
+                <nav class="header__nav">
+                    <ul class="header__ul">
+                        <li><a href="#about">Главная</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
-        
-    </section>
+    </header>
+    <main class="main">
+        <section class="f-section">
+            <div class="container f-section__container">
+                <div class="f-section__wrapper">
+                    <div class="f-section__heading">
+                        <h1>Улыбинский НСО</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s-section" id="about">
+            <video class="s-section__video" loop autoplay muted>
+                <source src="./video/coverr-taking-pictures-on-a-boat-7292-1080p (online-video-cutter.com).mp4"> 
+                <source src="./video/coverr-taking-pictures-on-a-boat-7292-1080p-_1_.webm">
+            </video>
+            <div class="container">
+                <div class="s-section__wrapper">
+                    <div class="s-section__about">
+                        <h2 class="s-section__heading">Улыбинский НСО</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis dolor eaque et possimus officia consequuntur voluptatem, minus maxime quod sunt eligendi ipsum fugiat doloremque adipisci animi amet accusamus quo provident voluptate necessitatibus, sit iusto. Nulla aliquid adipisci rerum, obcaecati quos quam quasi? Nulla eaque incidunt quisquam, facilis porro fugiat!</p>
+                    </div>
+                    <div class="s-section__map">
+                        <iframe class="s-section__iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3A808c2ce73e6d4d03d0581018e88cbad540c81c71787576011d112a216401bf3a&amp;source=constructor" width="481" height="366" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
     <footer class="footer" id="contacts">
         <div class="container">
             <div class="footer__wrapper">
@@ -85,7 +85,6 @@
             </div>
         </div>
     </footer>
-  </main>
   <script src="./scripts/header-script.js"></script>
   <script src="scripts/heading-script.js"></script>
 </body>

@@ -39,3 +39,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+.hidden-visiblity{
+  visibility: hidden;
+}
+
+.header-translateY{
+  transform: translateY(-110%);
+}
+
